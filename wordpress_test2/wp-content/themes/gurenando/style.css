@@ -1,0 +1,22 @@
+/*
+Theme name = Guren
+Author = Ando
+Description = mon theme scratch
+Version = 1.0
+Text Domain = gurenando
+*/
+@import url("https://fonts.googleapis.com/css2?family=Rock+3D&display=swap");
+body {
+  background-color: black;
+  color: whitesmoke;
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 80%;
+  text-align: center;
+  font-family: "Rock 3D display";
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
