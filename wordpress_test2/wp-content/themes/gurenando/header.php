@@ -19,7 +19,11 @@
     <!-- <?= bloginfo('template_directory') ?> -->
 
     <header>
-        <div><?php dynamic_sidebar('haut gauche')?>Text from Square Enix Final Fantasy Crisis Core</div>
+        <div class="row">
+            <div class="bleu col-6"><?php dynamic_sidebar('haut gauche')?>©2007 SQUARE ENIX CO., LTD. All Rights Reserved.
+            CHARACTER DESIGN: TETSUYA NOMURA </div>
+            <div class="rouge col-6"><?php dynamic_sidebar('haut droit')?></div>
+        </div>
         <img src="<?php bloginfo('template_directory') ?>/screenshot.png" alt="ErrOrR" title='Guren' loading='lazy'>
     </header>
 

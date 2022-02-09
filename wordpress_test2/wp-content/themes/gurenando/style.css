@@ -20,3 +20,11 @@ a {
   text-decoration: none;
   color: whitesmoke;
 }
+
+.bleu {
+  min-height: 80px;
+}
+
+.rouge {
+  min-height: 80px;
+}
